@@ -22,6 +22,16 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
+			head: [
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://cloud.umami.is/script.js',
+						'data-website-id': 'c7626485-eb26-4ad0-bb3f-ae20b8627473',
+						defer: true,
+					},
+				},
+			],
 		}),
 	],
 });
