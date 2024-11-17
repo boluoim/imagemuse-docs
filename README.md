@@ -1,55 +1,64 @@
-# Starlight Starter Kit: Basics
+# ImageMuse - The Image Management Wizard
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
+ImageMuse is a powerful image management tool designed specifically for cloud storage platforms like AWS S3 and Cloudflare R2.
+
+## ✨ Key Features
+
+- 🖼️ Simple drag-and-drop upload experience
+- ☁️ Multiple cloud storage support
+  - AWS S3
+  - Cloudflare R2
+  - More platforms coming soon...
+- 🖥️ Native-like UI for intuitive operation
+- 🚀 Efficient image management capabilities
+
+## 🚀 Getting Started
+
+Visit [GitHub Releases](https://github.com/boluoim/imagemuse-app/releases) to download the latest version of ImageMuse.
+
+For detailed instructions, check out our [Getting Started Guide](/guides/getting-started/).
+
+## 📖 Documentation Structure
+
 ```
-npm create astro@latest -- --template starlight
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+src/content/docs/
+├── guides/
+│   └── getting-started.md    # Getting started guide
+└── reference/               # Detailed reference documentation
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 🛠️ Development Commands
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+| Command           | Action                                  |
+| :---------------- | :-------------------------------------- |
+| `npm install`     | Install dependencies                    |
+| `npm run dev`     | Start dev server at `localhost:4321`    |
+| `npm run build`   | Build documentation to `./dist/`        |
+| `npm run preview` | Preview build locally                   |
 
-Static assets, like favicons, can be placed in the `public/` directory.
+## 🤝 Contributing
 
-## 🧞 Commands
+Issues and Pull Requests are welcome to help improve ImageMuse!
 
-All commands are run from the root of the project, from a terminal:
+## 📝 License
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+[License information to be added]
 
-## 👀 Want to learn more?
+## 🔗 Links
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- [GitHub Repository](https://github.com/boluoim/imagemuse-app)
+- [Documentation](https://docs.imagemuse.app)
+- [Release Downloads](https://github.com/boluoim/imagemuse-app/releases)
+
+## 💬 Community
+
+Have questions? Need help? Feel free to:
+- Open an issue on GitHub
+- Join our community discussions
+- Follow our updates
+
+---
+
+Built with ❤️ for image management
